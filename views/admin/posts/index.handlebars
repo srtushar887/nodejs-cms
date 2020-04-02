@@ -1,0 +1,42 @@
+<main>
+    <div class="container-fluid text-center">
+        <h1 class="mt-4">All Posts</h1>
+        <table class="table table-bordered">
+            <thead class="bg-dark">
+            <tr class="text-white text-center">
+                <th scope="col">Id</th>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">Allow Comments</th>
+                <th scope="col">Category</th>
+                <th scope="col">Status</th>
+                <th scope="col">Action</th>
+            </tr>
+            </thead>
+            <tbody class="text-center">
+            {{#each posts}}
+            <tr class="text-center">
+                <th scope="row">{{_id}}</th>
+                <td>{{title}}</td>
+                <td>{{description}}</td>
+                <td>{{allowcomments}}</td>
+                <td>{{category.title}}</td>
+                <td>{{status}}</td>
+                <td class="d-flex">
+                    <a href="/admin/posts/edit/{{_id}}"><button class="btn btn-success btn-sm mr-2">Edit</button> </a>
+                    <form action="/admin/post/delete/{{_id}}?newMethod=DELETE" method="post">
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                    </form>
+
+                </td>
+            </tr>
+            {{/each}}
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+
+</main>

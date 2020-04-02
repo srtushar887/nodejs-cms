@@ -1,0 +1,38 @@
+{{#if error}}
+    {{#each error}}
+        <p>{{message}}</p>
+    {{/each}}
+{{/if}}
+<br>
+<br>
+<br>
+<form action="/register" method="post">
+
+    <div class="container">
+        <label for="uname"><b>First Name</b></label>
+        <input type="text" placeholder="Enter Username" name="firstName" >
+
+        <label for="uname"><b>Last Name</b></label>
+        <input type="text" placeholder="Enter Username" name="lastName" >
+
+        <label for="uname"><b>Email</b></label>
+        <input type="text" placeholder="Enter Username" name="email" >
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" >
+
+        <label for="psw"><b>Confirm Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password_confirm" >
+
+        <button type="submit">Register</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw"><a href="/register">Register?</a></span>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+</form>

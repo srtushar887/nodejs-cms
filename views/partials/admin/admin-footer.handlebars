@@ -1,0 +1,74 @@
+<footer class="py-4 bg-light mt-auto">
+    <div class="container-fluid">
+        <div class="d-flex align-items-center justify-content-between small">
+            <div class="text-muted">Copyright &copy; Your Website 2019</div>
+            <div>
+                <a href="#">Privacy Policy</a>
+                &middot;
+                <a href="#">Terms &amp; Conditions</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="/js/scripts.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#createcategory').on('click',function (e) {
+            e.preventDefault();
+
+            var data = $('#title').val();
+
+            $.ajax({
+               url : '/admin/category',
+               type : 'POST',
+               data : {name : data},
+               success : function (response) {
+                    var html = `<tr class="text-center">
+                    <th scope="row">${response._id}</th>
+                    <td>${response.title}</td>
+                    <td class="d-flex">
+                        <a href="/admin/post/edit/${response._id}"><button class="btn btn-success btn-sm mr-2">Edit</button> </a>
+                        <form action="/admin/post/delete/${response._id}?newMethod=DELETE" method="post">
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </td>
+                </tr>`;
+
+                    $('.cattable').append(html);
+
+                        console.log(response)
+               }
+            });
+
+        })
+
+
+
+        $('#updatecategory').on('click',function (e) {
+            e.preventDefault();
+
+            var data = $('#title').val();
+            var id = $('#category_id').val();
+
+            $.ajax({
+                url : `/admin/category/edit/${id}`,
+                type : 'POST',
+                data : {name : data},
+                success : function (response) {
+
+                    window.location.href = response.url;
+
+
+                }
+            });
+
+        })
+    })
+</script>
+
+</body>
+</html>

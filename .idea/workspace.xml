@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd7f5ef3-6686-41cf-b5ef-ddfbbd5bcf73" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1ZZUnEkvrqnMoIJrqyLLZltCWty" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="enabled" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ejs.close.delimiter" value="%&gt;" />
+    <property name="ejs.open.delimiter" value="&lt;%" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="last_opened_file_path" value="/opt/lampp/htdocs/client project/ecomexl" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$/views/default" />
+      <recent name="$PROJECT_DIR$/views" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd7f5ef3-6686-41cf-b5ef-ddfbbd5bcf73" name="Default Changelist" comment="" />
+      <created>1585046274517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585046274517</updated>
+      <workItem from="1585046276446" duration="3079000" />
+      <workItem from="1585057610743" duration="3994000" />
+      <workItem from="1585082365559" duration="2617000" />
+      <workItem from="1585146164822" duration="27000" />
+      <workItem from="1585146209988" duration="670000" />
+      <workItem from="1585148154175" duration="835000" />
+      <workItem from="1585219126927" duration="3812000" />
+      <workItem from="1585302027123" duration="7520000" />
+      <workItem from="1585391096542" duration="4200000" />
+      <workItem from="1585396519676" duration="302000" />
+      <workItem from="1585398168831" duration="337000" />
+      <workItem from="1585398612893" duration="4670000" />
+      <workItem from="1585478111277" duration="140000" />
+      <workItem from="1585478258506" duration="2414000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585084595509">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="141" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.734@0.0.1366.734" timestamp="1585084595509" />
+    <state x="304" y="137" width="751" height="459" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1585083536223">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="304" y="137" width="751" height="459" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.734@0.0.1366.734" timestamp="1585083536223" />
+    <state x="466" y="126" width="428" height="481" key="FileChooserDialogImpl" timestamp="1585480671969">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="466" y="126" width="428" height="481" key="FileChooserDialogImpl/0.0.1366.734@0.0.1366.734" timestamp="1585480671969" />
+    <state x="0" y="0" width="1366" height="734" key="SettingsEditor" timestamp="1585478250413">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="0" y="0" width="1366" height="734" key="SettingsEditor/0.0.1366.734@0.0.1366.734" timestamp="1585478250413" />
+    <state x="339" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1585478258700">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="339" y="195" key="com.intellij.ide.util.TipDialog/0.0.1366.734@0.0.1366.734" timestamp="1585478258700" />
+    <state x="345" y="162" key="run.anything.popup" timestamp="1585219503638">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="345" y="162" key="run.anything.popup/0.0.1366.734@0.0.1366.734" timestamp="1585219503638" />
+    <state x="346" y="55" width="672" height="678" key="search.everywhere.popup" timestamp="1585304995168">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="346" y="55" width="672" height="678" key="search.everywhere.popup/0.0.1366.734@0.0.1366.734" timestamp="1585304995168" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/defaultRoutes.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
